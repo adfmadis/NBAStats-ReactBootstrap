@@ -1,0 +1,107 @@
+body {
+  padding-top: 50px;
+}
+
+.nav-text a {
+  color:#E9FAE3 !important;
+}
+
+.dropdown-filter {
+  margin: 15px 15px 15px 15px;
+}
+
+.form-control {
+  background-color: #E9FAE3 !important;
+  padding: 15px 15px 15px 15px;
+  font-family: "Helvetica Neue";
+  font-size: 11pt !important;
+}
+
+.btn-success {
+  font-size: 11pt !important;
+}
+
+.green-button {
+  font-family: "Helvetica Neue";
+  color: black !important;
+
+}
+
+.dropdown-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+}
+
+.dropdown-item a {
+  color: black;
+}
+
+.filter-options {
+  padding: 0px 0px 0px 5px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  color: black;
+  width: 493px !important;
+}
+
+.filter-option {
+  margin: 0px 0px 0px 7px;
+}
+
+.filter-button {
+  margin-left: 107px;
+}
+
+#dropdown-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+#filter-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media(max-width: 767px) {
+  .form-control {
+    font-size: 10pt !important;
+  }
+  .btn-success {
+    font-size: 10pt !important;
+  }
+  .filter-options {
+    width: 464px !important;
+  }
+  .filter-button {
+    margin-left: 100px;
+  }
+}
+
+@media(max-width: 543px) {
+  /* adjust text-size in dropdown/filter form */
+  .form-control {
+    font-size: 7pt !important;
+  }
+  .btn-success {
+    font-size: 7pt !important;
+  }
+  /* adjust */
+  .filter-options {
+    width: 305px !important;
+  }
+  .filter-option {
+    margin: 0px 0px 5px 4px;
+  }
+  .filter-button {
+    margin-left: 35px;
+  }
+  .nav-item {
+    font-size: 12px;
+  }
+  .navbar-brand {
+    font-size: 16px;
+  }
+}
